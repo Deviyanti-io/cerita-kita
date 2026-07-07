@@ -8,6 +8,10 @@ version = "1.0.0"
 [fs]
 "/app/" = "."
 
+[[hook]]
+name = "build"
+command = "composer install --no-dev --optimize-autoloader"
+
 [[command]]
 name = "serve"
 module = "php/php:php"

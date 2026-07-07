@@ -1,5 +1,5 @@
-kind: wasmer.io/App.v0
 name: cerita-kita
+app_id: da_KD4Iat7UOb3L
 owner: deviyanti-io
 package: wasmer/hello@^0.1.3
-app_id: da_KD4Iat7UOb3L
+kind: wasmer.io/App.v0
