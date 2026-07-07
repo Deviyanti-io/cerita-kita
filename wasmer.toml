@@ -1,0 +1,15 @@
+[package]
+name = "cerita-kita"
+version = "1.0.0"
+
+[dependencies]
+"php/php" = "8.3.4"
+
+[fs]
+"/app/" = "."
+
+[[command]]
+name = "serve"
+module = "php/php:php"
+runner = "wasi"
+main-args = ["-t", "/app/public", "-S", "0.0.0.0:8080"]
