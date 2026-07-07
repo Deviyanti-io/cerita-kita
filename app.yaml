@@ -1,0 +1,4 @@
+name: cerita-kita
+owner: deviyanti-io
+package: .
+kind: wasmer.io/App.v0
